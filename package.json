@@ -2,9 +2,12 @@
   "name": "polyboot-core-boilerplate",
   "version": "0.0.1",
   "description": "Core boilerplate for polyboot project",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:server": "polyserve",
+    "start:lint": "polylint",
+    "test:all": "wct",
+    "test:chrome": "wct -l chrome",
+    "test:alive": "wct -p"
   },
   "keywords": [
     "Polymer",
@@ -14,5 +17,10 @@
     "Polyboot"
   ],
   "author": "hegdeashwin <ashwin.hegde3@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "polylint": "^2.10.1",
+    "polyserve": "^0.13.0",
+    "web-component-tester": "^5.0.0"
+  }
 }
