@@ -1,0 +1,25 @@
+{
+  "name": "polyboot-core-boilerplate",
+  "authors": [
+    "hegdeashwin <ashwin.hegde3@gmail.com>"
+  ],
+  "description": "Core boilerplate for polyboot project",
+  "main": "",
+  "keywords": [
+    "Polymer",
+    "Web",
+    "components",
+    "web-components",
+    "Polyboot"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
